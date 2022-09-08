@@ -14,7 +14,7 @@ public class AddProjectTest {
 	@Test
 	public void create() {
 		
-		//json body 
+		//json body object
 		JSONObject jobj = new JSONObject();
 		jobj.put("createdBy", "soumya");
 		jobj.put("projectName", "Hii");
