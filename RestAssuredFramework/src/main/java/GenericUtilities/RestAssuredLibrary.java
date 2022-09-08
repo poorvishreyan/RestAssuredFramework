@@ -11,7 +11,7 @@ public class RestAssuredLibrary {
 	public String getJsonData(Response response, String path)
 	
 	{
-	String JSONpath=response.jsonPath().getString(path);
+	String JSONpath=response.jsonPath().get(path);
 	return JSONpath;
 	
 	}

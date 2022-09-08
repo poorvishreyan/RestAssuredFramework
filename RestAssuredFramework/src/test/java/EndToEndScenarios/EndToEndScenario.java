@@ -34,6 +34,8 @@ public class EndToEndScenario extends GenericUtilities.BaseAPIClass {
 		response.then().assertThat().statusCode(201).contentType(ContentType.JSON).time(Matchers.lessThan(2000L)).log()
 				.all();
 		Reporter.log("Project is CREATED in API");
+		
+		
 
 		// Validating in GUI
 

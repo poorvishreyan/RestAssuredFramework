@@ -13,4 +13,8 @@ public interface IAutoConstants {
 	String DBPassword = "root";
 	String REPORT_PATH ="./Extent Reports";
 	
+	String appUserName = "rmgyantra";
+	String appPassword ="rmgy@9999";
+	String RmgUri="http://localhost:8084/";
+	
 }
